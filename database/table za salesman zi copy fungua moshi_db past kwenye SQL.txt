@@ -1,0 +1,50 @@
+-- table za salesman zi  hizi code fungua moshi_db past kwenye SQL
+
+
+
+
+CREATE TABLE `customer_sm` (
+  `id` int(20) NOT NULL auto_increment,
+  `name` varchar(100) default NULL,
+  `cost` int(20) default NULL,
+  `paid` int(20) default NULL,
+  `date` date default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+-- 
+
+CREATE TABLE `product_sm` (
+  `id` int(20) NOT NULL auto_increment,
+  `name` varchar(100) default NULL,
+  `cost` int(20) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+
+-- 
+
+CREATE TABLE `record_sm` (
+  `id` int(11) NOT NULL auto_increment,
+  `idsalesman` int(11) default NULL,
+  `idcustomer` int(11) default NULL,
+  `idproduct` int(11) default NULL,
+  `qt` int(11) default NULL,
+  `cost` int(11) default NULL,
+  `date` date default NULL,
+  `paid` int(11) default NULL,
+  `reloaded` int(11) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=248 ;
+
+-- 
+
+CREATE TABLE `salesman` (
+  `id` int(11) NOT NULL auto_increment,
+  `salesman_name` varchar(50) default NULL,
+  `vehicle_no` varchar(50) default NULL,
+  `driver` varchar(50) default NULL,
+  `phone` varchar(50) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+-- 

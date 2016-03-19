@@ -1,0 +1,1 @@
+UPDATE `moshi_db`.`rdsell` SET `profit` = '' 

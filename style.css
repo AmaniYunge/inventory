@@ -1,0 +1,146 @@
+
+
+
+
+
+
+#bgimg {
+   background-color:#FFF; background-repeat:repeat;
+   background-image:url(images/Bottom_texture.jpg);
+
+
+}
+#login_top {
+position:absolute;
+border:none; 
+background-color:#FAF7EB; 
+left:0px; 
+right:0px; 
+min-height:105px;
+background-image:url(images/logopng.png);
+background-repeat:no-repeat; 
+top:2px;
+
+
+
+}
+#login_top h1 {
+font-size:24px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+text-shadow: 12px 4px 25px #10061F;
+
+
+}
+#login_body {
+position:absolute;
+border:none;
+backface-visibility:visible; 
+left:0%; 
+right:40%; 
+min-height:650px;
+background-image:url(images/Bottom_texture.jpg);	 
+top:110px;
+background-color:#FFF;
+padding:50px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#006;
+}
+/*
+background: -moz-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: -webkit-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: -o-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: -ms-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: linear-gradient(to bottom, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1bfea', endColorstr='#67676b', GradientType=0 );
+
+
+
+
+border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+border: 10px solid #71CDDD;
+}
+
+
+background=8a989e00&noise=c2b8c2&density=100&opacity=100
+-webkit-box-shadow: 10px 10px 5px 0px rgba(125,118,125,0.73);
+-moz-box-shadow: 10px 10px 5px 0px rgba(125,118,125,0.73);
+box-shadow: 10px 10px 5px 0px rgba(125,118,125,0.73);
+
+border-radius: 26px 26px 26px 26px;
+-moz-border-radius: 26px 26px 26px 26px;
+-webkit-border-radius: 26px 26px 26px 26px;
+border: 22px solid #000000;
+<div style='position:absolute; padding-top:110px; font-family:Verdana, Arial, Helvetica, sans-serif; top:0px; left:0px; right:0px; height:1000px;
+background-color:lightblue; '><center><h2 style=' font-family:Verdana, Arial, Helvetica, sans-serif;'><form action='index.php' method='post'>
+<table style='background:#CCCCFF ; border:#FFFFFF thin solid;'><tr><td> key</td><td><input type='text' placeholder='Enter key' name='sak'
+ size='45'  /></td><td><input type='submit' name='submit' value='enter' /></td> </tr></table></form></center>   </div>< background: rgba(193,191,234,0);
+background: -moz-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(193,191,234,0)), color-stop(55%, rgba(193,191,234,0.7)), color-stop(79%, rgba(145,144,166,1)), color-stop(100%, rgba(103,103,107,1)));
+background: -webkit-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: -o-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: -ms-linear-gradient(top, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+background: linear-gradient(to bottom, rgba(193,191,234,0) 0%, rgba(193,191,234,0.7) 55%, rgba(145,144,166,1) 79%, rgba(103,103,107,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1bfea', endColorstr='#67676b', GradientType=0 );
+--- LOGIN -- --*/
+#recTable {
+
+width:450px; 
+padding:10px;
+border-radius:10px;
+border-width:medium;
+border-color:#FF99CC;
+margin-bottom:20px;
+}
+#recTable table {
+ border:none; width:400px; 
+}
+
+#recTable table tr td input #txtbox {
+ border:#CCFF99 thin solid;
+ 
+}
+#tablequery {
+	background-color:#C8F1C7;
+	font-size:12px;
+width:100%;
+text-transform:capitalize;
+color:#790079;
+border-collapse:collapse;
+
+
+
+}
+#tablequery th {
+	background-color:#600;
+	height:25px;
+	color:#FFF;
+	
+}
+
+#tablequery td {
+	height:23px;
+	border-right:#0CF thin solid;
+	color:#131C64;
+	
+}
+
+
+#recinfo {
+ border-radius:10px;
+border-width:medium;
+border-color:#FF99CC;
+}
+option {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#660099;
+font-size:12px;
+}
+#sell{
+	
+	}
+#light {position:absolute; border:none; left:2%; right:2%; height:100px; top:60%;}
+/*  */

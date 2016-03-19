@@ -1,0 +1,187 @@
+/* CSS Document */
+
+
+
+
+
+
+
+ul#display-inline-block-example,
+ul#display-inline-block-example li,input {
+margin-left:0;
+cursor:pointer;
+}
+ul#display-inline-block-example li {
+
+display: inline-block;
+text-transform:capitalize;
+
+width:200px;
+text-align:left;
+
+
+vertical-align: top;
+
+} 
+ul#display-inline-block-example li:hover {
+display: inline-block;
+width: 150px;
+vertical-align: top;
+
+background-color:#99FF99;
+
+} 
+
+
+
+
+
+
+
+
+#zaid {
+background-color:#FFFFCC; 
+position:absolute; width:500px;   
+left:100px; 
+top:20px;
+}
+
+#categoriestop {
+background-color:#FFFFCC; padding:10px; position:absolute; right:1%; left:1%; top:5px; height:70px; border:#CC3300 thin solid; border-radius:10px 10px 0 0; 
+text-transform:capitalize; color:#000066; list-style-image:url(images/bg_more.png); font-family:Georgia, "Times New Roman", Times, serif; font-size:32px; vertical-align:text-top;
+-webkit-box-shadow: -2px -4px 14px rgba(50, 64, 50, 0.75);
+-moz-box-shadow:    -2px -4px 14px rgba(50, 64, 50, 0.75);
+box-shadow:         -2px -4px 14px rgba(50, 64, 50, 0.75);
+text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+
+}
+#categories {
+	background-image:url(images/backg.gif);
+	border-bottom-color:#FFF;
+ padding:70px 100px 50px 100px; position:absolute; right:0; left:0; height:auto; top:0px; border:none;   
+text-transform:capitalize; color:#000066; list-style-image:none; font-family:Georgia, "Times New Roman", Times, serif; font-size:15px;
+/*
+-webkit-box-shadow: -4px -8px 28px rgba(73, 64, 50, 0.75);
+-moz-box-shadow:    -4px -8px 28px rgba(73, 64, 50, 0.75);
+box-shadow:         -4px -8px 28px rgba(73, 64, 50, 0.75);
+
+*/
+}
+#categories table { 
+border:#06F thin solid;
+}
+#slide img{
+	border-radius:10px;
+	border:#999 
+
+-moz-box-shadow:    -2px -4px 14px rgba(50, 64, 50, 0.75);
+box-shadow:         -2px -4px 14px rgba(50, 64, 50, 0.75);
+text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+
+border-radius:10px;
+
+
+}
+#slide {
+	border:#999 
+
+-moz-box-shadow:    -2px -4px 14px rgba(50, 64, 50, 0.75);
+box-shadow:         -2px -4px 14px rgba(50, 64, 50, 0.75);
+text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+
+border-radius:10px;
+
+
+}
+
+
+#categories table{
+
+font-size:14px;
+color:#00000;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+td#lin {
+border-top:1px;
+
+
+}
+#td {
+	
+	
+	border-right:#096 thin solid;
+}
+
+#categories_submit {
+position:relative; left:45%; margin:7px; 
+
+}
+#main {
+
+position:absolute; left:30%; top:10%; border:#666666 thin;
+
+
+}
+
+
+    #tabs6 {
+	position:absolute;
+	       margin:0;
+        padding:0;
+        font:  9px Verdana;
+      float:left;
+	  top:100px;
+      width:100%;
+      background:transparent;
+      font-size:50%;
+      line-height:normal;
+          
+		
+		  left:22%;
+      }
+    #tabs6 ul {
+          margin:0;
+          padding:10px 10px 0 50px;
+          list-style:none;
+      }
+    #tabs6 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs6 a {
+      float:left;
+      background:url("tableft6.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs6 a span {
+      float:left;
+      display:block;
+      background:url("tabright6.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs6 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs6 a:hover span {
+      color:#FFF;
+      }
+    #tabs6 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs6 a:hover span {
+      background-position:100% -42px;
+      }
+
+      #tabs6 #current a {
+              background-position:0% -42px;
+      }
+      #tabs6 #current a span {
+              background-position:100% -42px;
+      }

@@ -1,0 +1,10 @@
+ALTER TABLE  `bank`
+ADD  `pallet` INT( 20 ) NULL DEFAULT NULL ,
+ADD  `e_pallet` INT( 20 ) NULL DEFAULT NULL ,
+ADD `c_pallet` INT( 20 ) NULL DEFAULT NULL ,
+ADD `leak` INT( 20 ) NULL DEFAULT NULL ,
+ADD `e_leak` INT( 20 ) NULL DEFAULT NULL ,
+ADD `c_leak` INT( 20 ) NULL DEFAULT NULL ,
+ADD `empties` INT( 20 ) NULL DEFAULT NULL ,
+ADD  `e_empties` INT( 20 ) NULL DEFAULT NULL ,
+ADD  `c_empties` INT( 20 ) NULL DEFAULT NULL
